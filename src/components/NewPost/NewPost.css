@@ -1,0 +1,32 @@
+.NewPost {
+  box-shadow: 0px 0px 5px #ccc;
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 0px;
+}
+.NewPost input, 
+.NewPost textarea,
+.NewPost select {
+  width: 80%;
+  border: 1px solid black;
+  margin : auto;
+  box-sizing: border-box;
+  outline: none;
+  font: inherit;
+  display: block;
+}
+.NewPost button {
+  margin: 5px 0px;
+  color: orange;
+  border: 2px solid orange;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+  font: inherit;
+}
+.NewPost button:hover,
+.NewPost button:active {
+  color: white;
+  background-color: orange;
+}
